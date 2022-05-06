@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5c156e1d11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Bootstrap Restaurant</title>
+</head>
+<body>
+    <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+        <div class="container-fluid container-xl d-flex align-items-center justify">
+            <i class="fa-solid fa-mobile-button d-flex align-items-center pe-4 text-warning">
+                <span class="pe-4 text-white">+1 5589 55488 55</span>
+            </i>
+            <i class="fa-solid fa-clock d-none d-lg-flex align-items-center text-warning">
+                <span class="text-white">Mon-Sat: 11:00 AM - 23:00 PM</span>
+            </i>
+        </div>
+    </section>
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="logo me-auto">
+                <h1>
+                    <a href="index.html">Delicious</a>
+                </h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="nav-links">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#menu">Menu</a>
+                    <a class="nav-link" href="#specials">Specials</a>
+                    <a class="nav-link" href="#events">Events</a>
+                    <a class="nav-link" href="#chefs">Chefs</a>
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-dark bg-dark dropdown-toggle" data-bs-toggle="dropdown">
+                            Dropdown
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                        </ul>
+                    </div>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <section id="hero">
+        <div class="hero-container">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://picsum.photos/200/300?random=1" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2 class="animate__animated animate__fadeInDown">Delicious Restaurant</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit neque quis rerum, fuga molestias impedit deserunt qui magnam quos delectus? Inventore ratione nobis sapiente laboriosam magnam maiores saepe cumque mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat porro aliquid. Iure mollitia in, voluptatum alias, necessitatibus quasi distinctio ullam ab sit veritatis cumque id optio minus magni quos.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/200/300?random=2" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Lorem Ipsum Dolor</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus officiis molestias possimus, obcaecati dicta sequi officia earum porro, sit omnis, sint voluptatum magnam soluta provident? Velit iure maxime tempora soluta! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam impedit asperiores necessitatibus ut qui sed ipsum suscipit vitae quae voluptates? Dolor quod non corrupti, sunt corporis libero sequi eaque reprehenderit?</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/200/300?random=3" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sequi ea ut et est quaerat</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima inventore nobis eos. Ad, quidem? Excepturi dolore officia ratione voluptas sapiente odit vero ex. Fuga quaerat tempore adipisci minima harum. Harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vel numquam eos aperiam veniam doloremque ea, odit beatae dolorum, natus quam amet ducimus fugit quae temporibus iusto illum. Sit, doloremque.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+
+    </section>
+    <section id="menu">
+
+    </section>
+    <section id="specials">
+
+    </section>
+    <section id="events">
+
+    </section>
+    <section id="chefs">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="staff">
+                        <img class="img-fluid" src="https://picsum.photos/600?random=1" />
+                        <div class="staff-details">
+                            <h5>Name</h5>
+                            <p>Occupation</p>
+                            links
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="staff">
+                        <img class="img-fluid" src="https://picsum.photos/600?random=2" />
+                        <div class="staff-details">
+                            <h5>Name</h5>
+                            <p>Occupation</p>
+                            links
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="staff">
+                        <img class="img-fluid" src="https://picsum.photos/600?random=3" />
+                        <div class="staff-details">
+                            <h5>Name</h5>
+                            <p>Occupation</p>
+                            links
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+
+    </section>
+    <section id="contact">
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
